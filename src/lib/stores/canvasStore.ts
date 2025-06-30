@@ -8,7 +8,7 @@ export interface CanvasObject {
   initialImage?: string;
 }
 
-export const showDevInfo = writable<boolean>(true);
+export const showDevInfo = writable<boolean>(false);
 
 export const geminiApiKey = writable<string>('');
 
