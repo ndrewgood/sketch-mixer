@@ -162,7 +162,7 @@
 	<title>Sketch Mixer</title>
 </svelte:head>
 
-<main>
+<main style="background-image: url('svg/box-grid.svg');">
   <div class="header">
     <button 
       class='logo' 
@@ -344,7 +344,6 @@
     min-width: 150vw;
     height: 2500px;
     width: 1500px;
-    background-image: url('svg/box-grid.svg');
     background-size: 8px 8px;
     background-position: center;
     background-repeat: repeat;
