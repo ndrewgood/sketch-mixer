@@ -35,7 +35,7 @@ export const generateOptionCombinationPrompt = writable<string>(
 // **Combination Instructions:**
 
 export const generateInstantPrompt = writable<string>(
-  'How might these sketches be combined in a creative, childlike way? These should be ideas that can be drawn in a simple sketch. List 3 options for how to combine the sketches. Generate a new sketch based off of the existing sketches and the best option of the 3. Keep the basic black and white line style of the original sketches.'
+  'How might these sketches be combined in a creative, childlike way? These should be ideas that can be drawn in a simple sketch. List 3 options for how to combine the sketches. Generate a new sketch based off of the existing sketches and the best option of the 3. Keep the basic line style of the original sketches. Use the same colors as the original sketches.'
 );
 
 export const responseCount = writable<number>(3);
