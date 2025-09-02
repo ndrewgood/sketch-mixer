@@ -2,7 +2,7 @@ import { GoogleGenAI, createUserContent, Type, Modality } from '@google/genai';
 import type { CanvasObject } from '$lib/stores/canvasStore';
 
 let geminiModelOptions = "gemini-2.0-flash";
-let geminiModelCombination = "gemini-2.0-flash-exp-image-generation";
+let geminiModelCombination = "gemini-2.5-flash-image-preview";
 
 
 const getCanvasElements = (canvasPositions: CanvasObject[]) => {
